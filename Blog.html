@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tc college-home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="img/tcc-logo-png.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs for 2023 </h1>
+    </section>
+<!-- blog page content -->
+<div class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/img1.jpg" alt="">
+            <h2>Our Certificates & Online Programs for 2023</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit excepturi commodi ducimus, est dolorum error mollitia, officiis exercitationem esse ipsa, in veritatis numquam officia. Iusto natus aliquam quasi quisquam necessitatibus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste tempora harum odit amet error officiis cum omnis repellendus qui consequatur incidunt recusandae blanditiis minus, distinctio ducimus quaerat rem quo est deserunt, magni voluptatibus perferendis. Saepe voluptas sunt repudiandae beatae vel nulla esse laborum perspiciatis, soluta quidem nihil cumque reiciendis eaque itaque fuga earum rem voluptatem. Voluptas, expedita numquam quis perferendis magnam cumque ratione earum iusto.</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam fugit debitis neque, asperiores, obcaecati laudantium exercitationem sed unde incidunt sit libero ipsa iusto modi! Tenetur voluptatum, vero fugit sunt tempora dolor cum harum. Animi in quos tempora labore, maxime accusamus!</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem perferendis sint architecto laborum sunt nisi ipsum quod pariatur! Dolores inventore, debitis libero reprehenderit dolorum quisquam est perspiciatis asperiores adipisci molestiae quaerat hic eius veniam, ea autem atque dicta corrupti sapiente tempore. Reprehenderit doloribus consectetur, accusantium laborum hic debitis eos impedit commodi sapiente ipsa iure?</p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Bussiness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Bussiness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>11</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>131</span>
+            </div>
+            <div>
+                <span>Marketing</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Web Developer</span>
+                <span>4100</span>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- footer -->
+    <section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam deserunt recusandae,<br> ducimus nam quos voluptatibus aliquid, pariatur vero harum accusamus doloribus veniam velit <br>corporis soluta reiciendis adipisci sapiente quibusdam.</p>
+<div class="icons">
+    <i class="fa fa-brands fa-facebook-f"></i>
+    <i class="fa fa-brands fa-linkedin-in"></i>
+    <i class="fa fa-brands fa-twitter"></i>
+    <i class="fa fa-brands fa-instagram"></i>
+
+<p>Made with <i class="fa fa-regular fa-heart"></i> by vandana Prajapati.</p>
+</div>
+    </section>
+    <!-- ------------js for toggle menu bar------------ -->
+    <script>
+        let navLinks=document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right='0';
+        }
+        function hideMenu(){
+            navLinks.style.right='-200px';
+        }
+    </script>
+</body>
+</html>

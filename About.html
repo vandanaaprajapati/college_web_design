@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tc college-home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header4">
+        <nav>
+            <a href="index.html"><img src="img/tcc-logo-png.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!-- about-content -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the worlds's largest University</h1>
+            <p>Tuljaram Chaturchand College of Arts, Science and Commerce, Baramati, Pune is one of the leading and prestigious colleges in Maharashtra established in 1962. Our motto, ‘We for Students’ is at the heart of everything we do at the college. The college celebrated its Golden Jubilee in 2012. Keeping pace with modern trends in higher education, the college has full fledged UG courses in Arts, Science and Commerce along with PG courses almost in all subjects of different streams as well as Ph. D. Research centers. Beside traditional courses we seek to develop and introduce need based, value added, skill based and career oriented new courses. However, the College has been reaccredited for the third cycle with ‘A+’ grade (CGPA 3.55) by NAAC, Bangalore in 2017. <br>It has been awarded the status of ‘College with Potential for Excellence’ by UGC, and has been selected for STAR College scheme by DBT & DST-FIST scheme by DST, New Delhi. The college has received several awards from Savitribai Phule Pune University, Pune including Best College Award, Best Principal Award, Best Student Welfare Officer Award, Best NSS Coordinator Award, Best NSS Unit Award, Best NSS volunteer award and also the recipient of awards from the Maharashtra Government.<br>
+
+                The college under the UGC scheme of skill development based higher education, started the new generation Bachelor of Vocation degree courses in June 2014-2015-<br> 1) Food Technology and Research and<br> 2) Journalism and Mass Communication <br>3) Retail Management and <br>4) E-Commerce and Digital Marketing<br> 5) Dairy Technology<br> 6) Networking and System Administration based on the National Skills Qualification Framework, (NSQF) to create employable graduates and skilled young entrepreneurs. Considering the overall academic progress of the college UGC, New Delhi has conferred the Autonomous status to the college from December 2018 to December 2029.</p>
+            <a href="" class="hero-btn red-btn">EXPLORER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="img/about1.jpg" alt="">
+            <img src="img/student-1.webp" alt="">
+        </div>
+    </div>
+</section>
+
+    <!-- footer -->
+    <section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam deserunt recusandae,<br> ducimus nam quos voluptatibus aliquid, pariatur vero harum accusamus doloribus veniam velit <br>corporis soluta reiciendis adipisci sapiente quibusdam.</p>
+<div class="icons">
+    <i class="fa fa-brands fa-facebook-f"></i>
+    <i class="fa fa-brands fa-linkedin-in"></i>
+    <i class="fa fa-brands fa-twitter"></i>
+    <i class="fa fa-brands fa-instagram"></i>
+
+<p>Made with <i class="fa fa-regular fa-heart"></i> by vandana Prajapati.</p>
+</div>
+    </section>
+    <!-- ------------js for toggle menu bar------------ -->
+    <script>
+        let navLinks=document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right='0';
+        }
+        function hideMenu(){
+            navLinks.style.right='-200px';
+        }
+    </script>
+</body>
+</html>

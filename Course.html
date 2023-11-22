@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tc college-home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/tcc-logo-png.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contactus.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+ <!-- course -->
+ <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa autem nihil esse consectetur hic ipsum eveniet optio odit nostrum.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Stream Selection: In Indian intermediate education, students typically choose from three main streams: Science, Commerce, and Arts (Humanities). The choice of stream determines the subjects a student will study in depth during these two years.
+                <img src="img/s1.jpg" alt="">
+                Science Stream: This stream includes subjects like Physics, Chemistry, Mathematics/Biology, and sometimes Computer Science. Students opting for this stream often pursue careers in engineering, medicine, research, or related fields.
+               
+                Commerce Stream: Commerce stream includes subjects like Accountancy, Business Studies, Economics, and Mathematics. Students in this stream often aim for careers in finance, accounting, business management, or entrepreneurship.</p>
+                
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+           
+            <p>Stream Selection: In Indian intermediate education, students typically choose from three main streams: Science, Commerce, and Arts (Humanities). The choice of stream determines the subjects a student will study in depth during these two years.
+                <img src="img/s2.jpg" alt="">
+                Science Stream: This stream includes subjects like Physics, Chemistry, Mathematics/Biology, and sometimes Computer Science. Students opting for this stream often pursue careers in engineering, medicine, research, or related fields.
+               
+                Commerce Stream: Commerce stream includes subjects like Accountancy, Business Studies, Economics, and Mathematics. Students in this stream often aim for careers in finance, accounting, business management, or entrepreneurship.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            
+            <p>Stream Selection: In Indian intermediate education, students typically choose from three main streams: Science, Commerce, and Arts (Humanities). The choice of stream determines the subjects a student will study in depth during these two years.
+                <img src="img/s3.jpg" alt="">
+                Science Stream: This stream includes subjects like Physics, Chemistry, Mathematics/Biology, and sometimes Computer Science. Students opting for this stream often pursue careers in engineering, medicine, research, or related fields.
+               
+                Commerce Stream: Commerce stream includes subjects like Accountancy, Business Studies, Economics, and Mathematics. Students in this stream often aim for careers in finance, accounting, business management, or entrepreneurship.</p>
+        </div>
+    </div>
+</section>
+   <!-- facilities -->
+   <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/s2.jpg" alt="">
+            <h3>World class Library</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum quam eum laboriosam praesentium.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/c1.jpeg" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum quam eum laboriosam praesentium.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/f4.jpg" alt="">
+            <h3>tasty and Healty Food</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum quam eum laboriosam praesentium.</p>
+        </div>
+    </div>
+</section>
+    <!-- footer -->
+    <section class="footer">
+<h4>About Us</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquam deserunt recusandae,<br> ducimus nam quos voluptatibus aliquid, pariatur vero harum accusamus doloribus veniam velit <br>corporis soluta reiciendis adipisci sapiente quibusdam.</p>
+<div class="icons">
+    <i class="fa fa-brands fa-facebook-f"></i>
+    <i class="fa fa-brands fa-linkedin-in"></i>
+    <i class="fa fa-brands fa-twitter"></i>
+    <i class="fa fa-brands fa-instagram"></i>
+
+<p>Made with <i class="fa fa-regular fa-heart"></i> by vandana Prajapati.</p>
+</div>
+    </section>
+    <!-- ------------js for toggle menu bar------------ -->
+    <script>
+        let navLinks=document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right='0';
+        }
+        function hideMenu(){
+            navLinks.style.right='-200px';
+        }
+    </script>
+</body>
+</html>
